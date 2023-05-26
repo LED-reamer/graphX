@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 
-//#include <glm/glm.hpp>
-#include "../vendor/glm/glm.hpp"
+
+#include "graphX/vendor/glm/glm.hpp"
 
 namespace gx
 {

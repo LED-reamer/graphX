@@ -6,7 +6,7 @@ int main()
 
 	while(gx::running())
 	{
-		gx::renderer::drawDot(gx::input::getMousePosition(), { 1, 1, 1, 1 }, 100.0f);
+		gx::renderer2d::drawDot(gx::input::getMousePosition(), { 1, 1, 1, 1 }, 100.0f);
 	}
 
 	gx::terminate();
